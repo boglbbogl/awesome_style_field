@@ -1,7 +1,6 @@
 library awesome_style_field;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/awesome_keyword.dart';
+export 'src/awesome_text_controller.dart';
+export 'src/awesome_style_field.dart';
+export 'src/awesome_style_form_field.dart';
