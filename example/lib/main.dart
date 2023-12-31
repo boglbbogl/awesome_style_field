@@ -4,19 +4,19 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: ExampleAwesomeTextField(),
+    home: ExampleAwesomeStyleField(),
   ));
 }
 
-class ExampleAwesomeTextField extends StatefulWidget {
-  const ExampleAwesomeTextField({super.key});
+class ExampleAwesomeStyleField extends StatefulWidget {
+  const ExampleAwesomeStyleField({super.key});
 
   @override
-  State<ExampleAwesomeTextField> createState() =>
-      _ExampleAwesomeTextFieldState();
+  State<ExampleAwesomeStyleField> createState() =>
+      _ExampleAwesomeStyleFieldState();
 }
 
-class _ExampleAwesomeTextFieldState extends State<ExampleAwesomeTextField> {
+class _ExampleAwesomeStyleFieldState extends State<ExampleAwesomeStyleField> {
   late AwesomeTextController controller;
   final Color _background = const Color.fromRGBO(46, 46, 46, 1);
 
@@ -45,7 +45,7 @@ class _ExampleAwesomeTextFieldState extends State<ExampleAwesomeTextField> {
         ),
       ),
       AwesomeKeyword(
-        text: "text",
+        text: "style",
         style: TextStyle(
           color: Colors.lightBlueAccent,
           fontSize: 24,
