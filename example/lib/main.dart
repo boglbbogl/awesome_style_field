@@ -39,7 +39,7 @@ class _ExampleAwesomeStyleFieldState extends State<ExampleAwesomeStyleField> {
         text: "awesome",
         style: TextStyle(
           color: Colors.limeAccent,
-          fontSize: 24,
+          fontSize: 20,
           fontStyle: FontStyle.italic,
           fontWeight: FontWeight.bold,
         ),
@@ -48,7 +48,7 @@ class _ExampleAwesomeStyleFieldState extends State<ExampleAwesomeStyleField> {
         text: "style",
         style: TextStyle(
           color: Colors.lightBlueAccent,
-          fontSize: 24,
+          fontSize: 20,
           fontWeight: FontWeight.bold,
         ),
       ),
@@ -56,7 +56,7 @@ class _ExampleAwesomeStyleFieldState extends State<ExampleAwesomeStyleField> {
         text: "Form",
         style: TextStyle(
           color: Colors.amberAccent,
-          fontSize: 24,
+          fontSize: 20,
           fontWeight: FontWeight.bold,
         ),
       ),
@@ -64,7 +64,7 @@ class _ExampleAwesomeStyleFieldState extends State<ExampleAwesomeStyleField> {
         text: "field",
         style: TextStyle(
           color: Colors.cyanAccent,
-          fontSize: 24,
+          fontSize: 20,
           fontWeight: FontWeight.bold,
         ),
       ),
@@ -72,7 +72,7 @@ class _ExampleAwesomeStyleFieldState extends State<ExampleAwesomeStyleField> {
         text: "!",
         style: TextStyle(
           color: Colors.tealAccent,
-          fontSize: 24,
+          fontSize: 20,
           fontWeight: FontWeight.w900,
         ),
       ),
