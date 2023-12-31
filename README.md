@@ -1,5 +1,7 @@
 # 🌈 Awesome Style Field
 
+![IMB_y1h90e](https://github.com/boglbbogl/awesome_style_field/assets/75574246/8234aa41-1d90-4f58-bdca-44751b1788d1)
+
 ## Features
 
 - AwesomeStyleField
@@ -17,6 +19,8 @@
 - Flutter Desktop
 
 -----
+
+![IMB_IcS3h3](https://github.com/boglbbogl/awesome_style_field/assets/75574246/14b91b04-4d17-4181-82ef-c9687e7885af)
 
 -----
 
@@ -70,6 +74,8 @@ AwesomeTextController controller = AwesomeTextController(initValue: "Tyger");
 
 ### Example
 
+![IMB_j8IGEq](https://github.com/boglbbogl/awesome_style_field/assets/75574246/32e4a25b-6eef-4489-8357-ffd088e6506e)=
+
 #### Tags
 
 ```dart
@@ -107,8 +113,11 @@ AwesomeKeyword(
 
 #### isDupicate
 
+![IMB_YSLyVK](https://github.com/boglbbogl/awesome_style_field/assets/75574246/cb7601b8-59fc-46e9-bc29-0ea4e971848a)
 
 #### isLetterCase
+
+![IMB_8rpj3m](https://github.com/boglbbogl/awesome_style_field/assets/75574246/a5ebf454-1908-45e0-8d03-bc7c4278d026)
 
 
 Created by Tyger [Github](https://github.com/boglbbogl)
