@@ -41,7 +41,14 @@ import 'package:awesome_style_field/awesome_style_field.dart';
 
 ## TextField or TextFormField
 
-### Add Parameters
+- `AwsomeStyleField` is inherited from TextField.
+- `AwsomeStyleFormField` is inherited from TextFormField.
+- Tags and style, added to `AwsomeStyleField` and `AwsomeStyleFormField`, can be customised.
+
+### New Parameters
+
+- `AwesomeTextController` is inherited from TextEditingController.
+- `List<AwesomeKeyword>` is for your awesome styles !
 
 ```dart
   final AwesomeTextController? controller;
@@ -49,6 +56,11 @@ import 'package:awesome_style_field/awesome_style_field.dart';
 ```
 
 ### AwesomeKeyword
+
+- Your keyword is passed to text parameter which is required.
+- Your own style is passed to style parameter which is optional. Without passing, your style will be set as parent style.
+- `isDuplicate` sets whether or not to duplicate style. (Default value allows duplication.)
+- `isLetterCase` enables upper or lower case to be separated. (Default value is not case-sensitive.)
 
 ```dart
 class AwesomeKeyword {
@@ -78,6 +90,8 @@ AwesomeTextController controller = AwesomeTextController(initValue: "Tyger");
 
 #### Tags
 
+- You add AwesomeKeyword class including style and tags to list. 
+
 ```dart
 List<AwesomeKeyword> keywords = [
   AwesomeKeyword(
@@ -98,6 +112,8 @@ List<AwesomeKeyword> keywords = [
 ```
 
 #### Style
+
+- You create your own style. 
 
 ```dart
 AwesomeKeyword(
