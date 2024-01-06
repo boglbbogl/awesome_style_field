@@ -88,7 +88,7 @@ AwesomeTextController controller = AwesomeTextController(initValue: "Tyger");
 
 ![IMB_j8IGEq](https://github.com/boglbbogl/awesome_style_field/assets/75574246/32e4a25b-6eef-4489-8357-ffd088e6506e)
 
-#### Tags
+### Tags
 
 - You add AwesomeKeyword class including style and tags to list. 
 
@@ -111,7 +111,7 @@ List<AwesomeKeyword> keywords = [
 ],
 ```
 
-#### Style
+### Style
 
 - You create your own style. 
 
@@ -127,11 +127,11 @@ AwesomeKeyword(
 ),
 ```
 
-#### isDupicate
+### isDupicate
 
 ![IMB_YSLyVK](https://github.com/boglbbogl/awesome_style_field/assets/75574246/cb7601b8-59fc-46e9-bc29-0ea4e971848a)
 
-#### isLetterCase
+### isLetterCase
 
 ![IMB_8rpj3m](https://github.com/boglbbogl/awesome_style_field/assets/75574246/a5ebf454-1908-45e0-8d03-bc7c4278d026)
 

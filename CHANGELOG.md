@@ -9,3 +9,6 @@
 
 ### [0.0.4]
 * _[README] update_
+
+### [0.0.5]
+* _[README] update_
